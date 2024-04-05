@@ -1,0 +1,92 @@
+[
+    {
+        "category": "Ford Bronco",
+        "link": "/ford-bronco",
+        "image": "/cars/ford_bronco.webp"
+    },
+    {
+        "category": "Tri-Five",
+        "link": "/tri-five",
+        "image": "/cars/tri-five.webp"
+    },
+    {
+        "category": "Camaro-Firebird",
+        "link": "/camaro-firebird/",
+        "image": "/cars/Chevy_Camaro.jpg"
+    },
+    {
+        "category": "1949-54 Chevy",
+        "link": "/49-54-chevy",
+        "image": "/cars/49-54_chevy.webp"
+    },
+    {
+        "category": "Chevelle, El Camino, Monte Carlo",
+        "link": "/elcamino-chevelle",
+        "image": "/cars/elcamino-chevelle.jpg"
+    },
+    {
+        "category": "1978-1988 GM A&G-Body",
+        "link": "/78-88-gm",
+        "image": "/cars/78-88-gm.jpg"
+    },
+    {
+        "category": "Oldsmobile Cutlass",
+        "link": "/olds-cutlass",
+        "image": "/cars/Olds_Cutlass.jpg"
+    },
+    {
+        "category": "Pontiac GTO/LeMans",
+        "link": "/pontiac",
+        "image": "/cars/pontiac.jpg"
+    },
+    {
+        "category": "Chevy II/Nova",
+        "link": "/chevyii-nova",
+        "image": "/cars/nova.webp"
+    },
+    {
+        "category": "Chevy Impala",
+        "link": "/impala",
+        "image": "/cars/Chevy_Impala.jpg"
+    },
+    {
+        "category": "Dodge/Chrysler",
+        "link": "/dodge-chry",
+        "image": "/cars/Dodge_Trucks.webp"
+    },
+    {
+        "category": "Ford Mustang",
+        "link": "/ford-mustang",
+        "image": "/cars/Ford-Mustang.webp"
+    },
+    {
+        "category": "Chevy/GMC Truck",
+        "link": "/chevy-gmc-truck",
+        "image": "/cars/Chevy_Trucks.webp"
+    },
+    {
+        "category": "Ford Truck",
+        "link": "/ford-truck",
+        "image": "/cars/Ford_trucks1.jpg"
+    },
+    {
+        "category": "Jeep/Dodge Truck",
+        "link": "/jeep-dodge",
+        "image": "/cars/jeep.webp"
+    },
+    {
+        "category": "Volkswagen T1 Bus",
+        "link": "/vw-bus",
+        "image": "/cars/vw.webp"
+    },
+    {
+        "category": "Mercedes-Benz",
+        "link": "/mercedes-benz",
+        "image": "/cars/benz.webp"
+    },
+    {
+        "category": "Other",
+        "link": "/other",
+        "image": "/cars/other.jpg"
+    }
+]

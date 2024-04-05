@@ -1,0 +1,55 @@
+[
+  {
+      "Title": "Electric Candle",
+      "Price": 5,
+      "Description": "No-flame candle with flicker top. Takes AAA batteries.",
+      "Dimensions": "5 in tall x 3 in round",
+      "Star": true,
+      "Qtyavailable": 15,
+      "Partno": "HE001",
+      "Photo": "HE001",
+      "Category": "candles"
+  },
+  {
+      "Title": "Reserved Sign",
+      "Price": 2.5,
+      "Description": "Wooden sign with hanging strap. Great for putting on tables at events.",
+      "Dimensions": "3 in x 6 in",
+      "Star": true,
+      "Qtyavailable": 1,
+      "Partno": "HE002",
+      "Photo": "HE002",
+      "Category": "signs"
+  },
+  {
+      "Title": "Cake Platter",
+      "Price": 7,
+      "Description": "Plastic cake platter with “I love you more than cake” written on top.",
+      "Dimensions": "5 in x 15 in dia.",
+      "Star": true,
+      "Qtyavailable": 1,
+      "Partno": "HE003",
+      "Photo": "HE003",
+      "Category": "food"
+  },
+  {
+      "Photo": "HE004",
+      "Title": "Table Center Piece",
+      "Price": "15",
+      "Description": "This unique table center piece fits the electric candles inside making it a great display on any table.",
+      "Star": true,
+      "Qtyavailable": 15,
+      "Partno": "HE004",
+      "Category": "centerpiece"
+  },
+  {
+      "Photo": "HE005",
+      "Title": "MR & MRS Bottles",
+      "Price": 15,
+      "Description": "Brown glass jugs, one with Mr. and the other with Mrs.",
+      "Star": true,
+      "Qtyavailable": "1 SET",
+      "Partno": "HE005",
+      "Category": "misc"
+  }
+]

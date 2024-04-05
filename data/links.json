@@ -1,0 +1,30 @@
+[
+    {
+        "name": "",
+        "href": ""
+    },
+    {
+        "name": "New Products",
+        "href": "/newproducts"
+    },
+    {
+        "name": "Flyer",
+        "href": "/flyer"
+    },
+    {
+        "name": "Catalog",
+        "href": "/catalog"
+    },
+    {
+        "name": "Volkswagen",
+        "href": "/vw"
+    },
+    {
+        "name": "Mercedes",
+        "href": "/mercedes"
+    },
+    {
+        "name": "Clearance",
+        "href": "/clearance"
+    }
+]

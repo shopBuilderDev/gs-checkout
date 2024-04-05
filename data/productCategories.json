@@ -1,0 +1,19 @@
+[
+  {"id": "1", "productCategory": "Body Components", "link": "Body-Components", "categoryImage": "body-components-img.webp"},
+  {"id": "2", "productCategory": "Bumpers", "link": "Bumpers", "categoryImage": "bumpers-img.webp"},
+  {"id": "3", "productCategory": "Chassis and Frame", "link": "Chassis-and-Frame", "categoryImage": "chassis-frame-img.webp"},
+  {"id": "4", "productCategory": "Emblems", "link": "Emblems", "categoryImage": "emblem-img.webp"},
+  {"id": "5", "productCategory": "Exhaust", "link": "Exhaust", "categoryImage": "exhaust-img.webp"},
+  {"id": "6", "productCategory": "Fuel System", "link": "Fuel-System", "categoryImage": "gastank-img.webp"},
+  {"id": "7", "productCategory": "Glass", "link": "Glass", "categoryImage": "glass-img.webp"},
+  {"id": "8", "productCategory": "Grille", "link": "Grille", "categoryImage": "grille-img.webp"},
+  {"id": "9", "productCategory": "Hardware", "link": "Hardware", "categoryImage": "hardware-img.webp"},
+  {"id": "10", "productCategory": "Heating and Cooling", "link": "Heating-and-Cooling", "categoryImage": "heater-img.webp"},
+  {"id": "11", "productCategory": "Interior", "link": "Interior", "categoryImage": "interior-img.webp"},
+  {"id": "12", "productCategory": "Lighting", "link": "Lighting", "categoryImage": "lighting-img.webp"},
+  {"id": "13", "productCategory": "Molding", "link": "Molding", "categoryImage": "molding-img.webp"},
+  {"id": "14", "productCategory": "Steering", "link": "Steering", "categoryImage": "steering-img.webp"},
+  {"id": "15", "productCategory": "Suspension and Brakes", "link": "Suspension-and-Brakes", "categoryImage": "suspension-img.webp"},
+  {"id": "16", "productCategory": "Under Hood", "link": "Under-Hood", "categoryImage": "under-hood-img.webp"},
+  {"id": "17", "productCategory": "Weatherstrip and Seals", "link": "Weatherstrip-and-Seals", "categoryImage": "weatherstrip-img.webp"}
+]
