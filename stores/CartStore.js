@@ -5,6 +5,18 @@ export const useCartStore = defineStore('CartStore', {
     items: [],
   }),
   actions: {
+    addItemToCart(itemAdded) {
+      const existingItemIndex = this.items.findIndex(item => item.variantId === itemAdded.variantId);
+      if (existingItemIndex !== -1) {
+        // If an item with the same variantId exists, update its quantity
+        this.items[existingItemIndex].quantity += 1;
+        this.updateSessionStorage();
+    } else {
+        // Otherwise, add the new item to the cart
+        this.items.push(itemAdded);
+        this.updateSessionStorage();
+    }
+    },
     removeItemFromCart(index) {
       this.items.splice(index, 1);
       this.updateSessionStorage();

@@ -1,13 +1,15 @@
 <script setup>
 import { getSingleProductQuery } from '../../graphql/getSingleProductQuery';
-
+import { CreateCartMutation } from '../../graphql/cart';
 
 	const route = useRoute()
+	const cartStore = useCartStore();
 
 	const { data: product } = await useAsyncQuery(getSingleProductQuery, {handle: route.params.handle})
 	const price = computed(() => `${product.value.productByHandle.priceRange.maxVariantPrice.amount} ${product.value.productByHandle.priceRange.maxVariantPrice.currencyCode}`)
 
 // 	const redirectToPayment = async () => {
+	const { mutate: createCart } = useMutation(CreateCartMutation);
 //   const { data } = await useAsyncQuery(CreateCartMutation)
 //   window.location.href = data.value}
 
@@ -22,8 +24,7 @@ const addToCart = () => {
 		image: product.value.productByHandle.images.edges[0].node.src,
 		quantity: 1
 	}
-
-	useCartStore().items.push(addedProd)
+	cartStore.addItemToCart(addedProd);
 	window.location.href = '/shoppingCart'
 }
 

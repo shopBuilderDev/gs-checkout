@@ -4,6 +4,7 @@
 import { createCheckoutMutation } from '../graphql/createCheckoutMutation';
 
 const cartItems = useCartStore().items
+const { mutate: createCheckout } = useMutation(createCheckoutMutation);
 
 const cartStore = useCartStore();
 
@@ -46,8 +47,14 @@ const getTotalPrice = () => {
 };
 
 const redirectToPayment = async () => {
-  const { data } = await useAsyncQuery(createCheckoutMutation, { variantId: cartItems.variantId })
-  window.location.href = data.value.checkoutCreate.checkout.webUrl
+  const lineItems = cartItems.map(item => ({
+    variantId: item.variantId,
+    quantity: parseInt(item.quantity)
+  }));
+  
+  const { data } = await createCheckout({ lineItems })
+  const url = data.checkoutCreate.checkout.webUrl;
+  window.location.href = url;
 }
 
 cartItems.forEach(item => {
